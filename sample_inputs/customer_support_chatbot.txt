@@ -1,0 +1,7 @@
+Build a customer support chatbot that answers product questions, checks order status, and escalates sensitive issues to a human agent.
+
+Business context:
+- The chatbot will be used by ecommerce customers in the US.
+- It should answer product FAQs, retrieve order status, and create a support ticket when escalation is needed.
+- It must avoid exposing sensitive customer information.
+- It should provide clear logs for troubleshooting and quality review.
