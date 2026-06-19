@@ -49,6 +49,9 @@ Use 5-7 bullets maximum.
 Focus on ADK multi-agent orchestration.
 Avoid long enterprise implementation tables unless explicitly asked.
 Make the output presentation-demo friendly.
+Format each section as:
+**Section name:**
+[content on the next line]
 """,
     # output_key saves the agent's response into session state under this key,
     # making it available to downstream agents via ctx.state.get(...)
@@ -92,6 +95,9 @@ Keep it concise enough to explain in a live demo.
 Recommend an ADK-based architecture first.
 Mention Vertex AI / Gemini, Cloud Run, Cloud Logging, and optional backend APIs.
 Do not make Dialogflow CX the main orchestration layer.
+Format each section as:
+**Section name:**
+[content on the next line]
 """,
     output_key="architecture_recommendation",
 )
@@ -130,6 +136,9 @@ Summarize the outputs from prior agents in 4 sections:
 4. Validation plan
 
 Keep it under 300 words.
+Format each section as:
+**Section name:**
+[content on the next line]
 """,
     output_key="risk_governance_review",
 )
@@ -164,7 +173,7 @@ Generate test scenarios for this solution. Include:
 4. Escalation tests
 5. Observability/quality tests
 
-Use a compact table format.
+Use a compact table format with columns: Test Type | Scenario | Expected Result
 """,
     output_key="test_plan",
 )
@@ -226,6 +235,9 @@ Do not repeat earlier sections.
 Do not include implementation phases.
 Keep the final recommendation under 250 words.
 Focus on ADK multi-agent orchestration.
+Format each section as:
+**Section name:**
+[content on the next line]
 
 Make it clear, concise, and presentation-friendly.
 """,
